@@ -13,11 +13,12 @@ function NumberEntry() {
 
             <div className="splash">
 
-                <img src={imgLogo} alt="logo" />
+
+                <img src={imgLogo} alt="logo"  className="logo"/>
 
                 <div className="beyondLoader">
                     <div className="title">
-                    <p>Please <br/> sign-in first <br/> ...</p>
+                        <p>Please <br /> sign-in first <br /> ...</p>
                     </div>
                     <ul>
                         <li></li>
@@ -35,8 +36,8 @@ function NumberEntry() {
 
                 <h1>Enter your phone number</h1>
 
-                <input type="tel" placeholder="Phone number here..."/>
-        </div>
+                <input type="tel" placeholder="Phone number here..." />
+            </div>
 
         </div>
     );

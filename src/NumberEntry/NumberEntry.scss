@@ -1,13 +1,6 @@
 .numberEntry{
+    height: 100vh;
     display:none;
-    height:100vh;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-
-    .splash{
-    width:70%;
-    height: 100vh;;
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0a0911+0,49668d+100 */
     background: rgb(10,9,17); /* Old browsers */
     background: -moz-linear-gradient(top,  rgba(10,9,17,1) 0%, rgba(73,102,141,1) 100%); /* FF3.6-15 */
@@ -15,16 +8,18 @@
     background: linear-gradient(to bottom,  rgba(10,9,17,1) 0%,rgba(73,102,141,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a0911', endColorstr='#49668d',GradientType=0 ); /* IE6-9 */
 
+    .splash{
+    width:70vw;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
 
-        img{
-
-        }
-
-    }
+}
 
     .form{
-        width:30%;
-        height: 100vh;
+        width:30vw;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -44,7 +39,7 @@
         width:260px;
         height:260px;
         display:block;
-        margin:25% auto;
+        margin:100px auto;
         position:relative;
 
         .title{
