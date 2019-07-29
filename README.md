@@ -1,2 +1,0 @@
-# BEYOND
-Created with CodeSandbox
