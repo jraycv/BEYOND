@@ -1,0 +1,134 @@
+.numberEntry{
+    display:none;
+    height:100vh;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    .splash{
+    width:70%;
+    height: 100vh;;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0a0911+0,49668d+100 */
+    background: rgb(10,9,17); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(10,9,17,1) 0%, rgba(73,102,141,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(10,9,17,1) 0%,rgba(73,102,141,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(10,9,17,1) 0%,rgba(73,102,141,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a0911', endColorstr='#49668d',GradientType=0 ); /* IE6-9 */
+
+
+        img{
+
+        }
+
+    }
+
+    .form{
+        width:30%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #fff;
+        flex-direction: column;
+
+        input{
+            height:44px;
+            width:420px; 
+            padding:10px;
+            font-size: 24px;   
+        }
+
+    }
+
+    .beyondLoader{
+        width:260px;
+        height:260px;
+        display:block;
+        margin:25% auto;
+        position:relative;
+
+        .title{
+            left:0;
+            right:0;
+            z-index:9;
+            width:258px;
+            height:258px;
+            display:flex;
+            margin:0 auto;
+            color:#fff;
+            font-size:24px;
+            line-height:1.5em;
+            border-radius:50%;
+            position:absolute;
+            align-items:center;
+            text-align:center;
+            text-shadow:0px 0px 10px rgba(0,0,0,0.65);
+            justify-content:center;
+            border:2px solid #67E8FF;
+            box-shadow:inset 0px 0px 10px #67E8FF , 0px 0px 10px #67E8FF;
+          }
+          
+          ul{
+            margin:0;
+            padding:0;
+            width:260px;
+            height:260px;
+            display:block;
+            position:relative;
+            animation-duration: 5s;
+            animation-name: rotateLoad;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+          }
+          
+          li{
+           width:260px;
+           height:260px;
+           display:block;
+           border-radius:20px;
+           position:absolute;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#6f22b2+0,11d0ef+100 */
+background: rgb(111,34,178); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(111,34,178,1) 0%, rgba(17,208,239,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(111,34,178,1) 0%,rgba(17,208,239,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(111,34,178,1) 0%,rgba(17,208,239,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6f22b2', endColorstr='#11d0ef',GradientType=0 ); /* IE6-9 */
+
+            opacity:0.50;
+          }
+          
+          
+          li:first-child{
+            transform:rotate(15deg);
+          }
+          
+          li:nth-child(2){
+           transform:rotate(30deg);
+          }
+          
+          li:nth-child(3){
+           transform:rotate(45deg);
+          }
+          
+          li:nth-child(4){
+           transform:rotate(60deg);
+          }
+          
+          li:nth-child(5){
+           transform:rotate(75deg);
+          }
+          
+          li:nth-child(6){
+           transform:rotate(90deg);
+          }
+          
+          
+          @keyframes rotateLoad {
+            100%{
+              transform:rotate(360deg);
+            }
+          }
+
+      }
+
+}
