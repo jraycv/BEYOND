@@ -43,13 +43,12 @@
         position:relative;
 
         .title{
-            left:0;
-            right:0;
+           top:50%;
+           left:50%;
             z-index:9;
-            width:258px;
-            height:258px;
+            width:238px;
+            height:238px;
             display:flex;
-            margin:0 auto;
             color:#fff;
             font-size:24px;
             line-height:1.5em;
@@ -57,6 +56,7 @@
             position:absolute;
             align-items:center;
             text-align:center;
+            margin:-119px 0 0 -119px;
             text-shadow:0px 0px 10px rgba(0,0,0,0.65);
             justify-content:center;
             border:2px solid #67E8FF;
@@ -70,7 +70,7 @@
             height:260px;
             display:block;
             position:relative;
-            animation-duration: 5s;
+            animation-duration: 10s;
             animation-name: rotateLoad;
             animation-timing-function: linear;
             animation-iteration-count: infinite;
